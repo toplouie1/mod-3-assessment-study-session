@@ -1,3 +1,28 @@
 .App {
-  text-align: center;
+	text-align: center;
+}
+.pet-logo {
+	width: 60px;
+}
+.Navbar {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+.Navbar a {
+	text-decoration: none;
+	color: black;
+	transition: 0.4s ease-in;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+.Navbar a:hover {
+	color: grey;
+	border: solid 1px grey;
+	border-radius: 30px;
+}
+.petsContainer {
+	border: 1px solid black;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: 30px;
 }
